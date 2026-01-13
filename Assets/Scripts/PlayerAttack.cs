@@ -19,14 +19,14 @@ public class PlayerAttack : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && cooldownTimer > attackCooldown) // Attacks if left mouse button clicked and cooldown timer is greater than the attack cooldown
             Attack();
-        
+            Debug.Log("Clicked - attacking");
         cooldownTimer += Time.deltaTime;
     }
 
     // Attack function
     private void Attack()
     {
-        anim.SetTrigger("Attack");
+        anim.SetTrigger("Attack1");
         cooldownTimer = 0;
     }
 
