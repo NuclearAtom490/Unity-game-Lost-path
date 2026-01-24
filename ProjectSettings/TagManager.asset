@@ -42,6 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: New Layer 7
+    uniqueID: 2289686045
+    locked: 0
+  - name: bacground
+    uniqueID: 3401492751
+    locked: 0
   - name: 1
     uniqueID: 2904512565
     locked: 0
